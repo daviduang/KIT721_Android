@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">KIT721 Assignment2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="event_history">Event History</string>
+    <string name="daily_summary">Daily Summary</string>
+    <string name="title_activity_feed_event">FeedEvent</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="btn_back">btn_back</string>
+    <string name="btn_done">btn_done</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feeding_type">Feeding Type:</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="duration">Duration:</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="enter_my_note_here">Enter my note here...</string>
+    <string name="bottle">Bottle</string>
+    <string name="breast_left">Breast-Left</string>
+    <string name="breast_right">Breast-Right</string>
+    <string name="my_note">My Note</string>
+    <string name="image_for_timer">Image for Timer</string>
+    <string name="reset">Reset</string>
+
+    <string name="feed_event_details">Start Time: %1$s\nEnd Time: %2$s\nDuration: %3$s\nType: %4$s\nNote: %5$s</string>
+    <string name="nappy_event_details">Type: %1$s\nNote: %2$s</string>
+    <string name="sleep_event_details">Start Time: %1$s\nEnd Time: %2$s\nDuration: %3$s\nNote: %4$s</string>
+    <string name="all">All</string>
+    <string name="nappy">Nappy</string>
+    <string name="sleep">Sleep</string>
+    <string name="feed">Feed</string>
+</resources>

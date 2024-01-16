@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btn_back"
+        android:icon="@drawable/arrow_back_white_24dp"
+        android:title="@string/btn_back"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btn_done"
+        android:icon="@drawable/baseline_done_white_24"
+        android:title="@string/btn_done"
+        app:showAsAction="always" />
+</menu>

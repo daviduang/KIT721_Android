@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<slide xmlns:android="http://schemas.android.com/apk/res/android"
+    android:slideEdge="left">
+    <targets>
+        <target android:id="@id/edit_delete_button_group" />
+    </targets>
+</slide>

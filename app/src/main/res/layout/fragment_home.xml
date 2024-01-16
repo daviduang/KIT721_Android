@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeFragment">
+
+    <Button
+        android:id="@+id/btn_feed"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:text="Feed"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sleep"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:text="Sleep"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_feed"
+        app:layout_constraintStart_toStartOf="@+id/btn_feed"
+        app:layout_constraintTop_toBottomOf="@+id/btn_feed" />
+
+    <Button
+        android:id="@+id/btn_nappy"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:text="Change Nappy"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_sleep"
+        app:layout_constraintStart_toStartOf="@+id/btn_sleep"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sleep" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_alarm"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_alarm"
+        android:textColor="@color/white"
+        android:text="Sleep Alarm"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_nappy"
+        app:layout_constraintStart_toStartOf="@+id/btn_nappy"
+        app:layout_constraintTop_toBottomOf="@+id/btn_nappy" />
+</androidx.constraintlayout.widget.ConstraintLayout>
